@@ -12,7 +12,8 @@ public class CliConfig {
         return new Options()
                 .addOption("h", "help", false, "Покажи помощь")
                 .addOption("a","artifactId",true,"Получить артефакт")
-                .addOption("g","groupId",true,"Получить групповой Id");
+                .addOption("g","groupId",true,"Получить групповой Id")
+                .addOption("l","list",false,"Получить массив Json");
 
     }
 }
